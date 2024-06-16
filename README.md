@@ -33,3 +33,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/HideAndSeek31th3Hub.txt",true))()
 ```
+
+# Main Gui
+
+```
+
+```
