@@ -56,3 +56,11 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/Nico'sNextBoxHub.txt",true))()
 ```
+# Doors
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/Doors%20BETA%20-%2031TH3.txt",true))()
+```
+# MM2
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/MM2%20-%2031TH3.txt",true))()
+```
