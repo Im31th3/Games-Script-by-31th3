@@ -1,2 +1,2 @@
-# FAQ
+# FAQ #
 IDK :)
