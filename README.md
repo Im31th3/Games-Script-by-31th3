@@ -24,8 +24,12 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 
 # Fly Car
 
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/flycar31th3.txt",true))()```
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/flycar31th3.txt",true))()
+```
 
 # Hide And Seek
 
-```loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/HideAndSeek31th3Hub.txt",true))()```
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/HideAndSeek31th3Hub.txt",true))()
+```
