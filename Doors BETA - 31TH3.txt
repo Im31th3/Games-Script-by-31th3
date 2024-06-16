@@ -1,1 +1,1 @@
-game.Players.LocalPlayer:Kick("wait for update, check on Github.com/Im31th3/Games-script-by-31th3")
+game.Players.LocalPlayer:Kick("wait for update :)")
