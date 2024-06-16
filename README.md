@@ -39,3 +39,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 
 ```
+
+# Fps Boots
+
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/FpsBoost.txt"))()
+```
+
+# Anti Kick Bypass
+
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/AntiKickBypass.txt"))()
+```
