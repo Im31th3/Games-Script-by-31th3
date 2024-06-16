@@ -37,7 +37,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 # Main Gui
 
 ```
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/Main%20Gui%20Script.lua",true))()
 ```
 
 # Fps Boots
