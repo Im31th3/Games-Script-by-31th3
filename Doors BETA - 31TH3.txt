@@ -1,1 +1,335 @@
-game.Players.LocalPlayer:Kick("wait for update :)")
+function TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy(code)res=''for i in ipairs(code)do res=res..string.char(code[i]/100)end return res end 
+
+
+local OrionLib = loadstring(game:HttpGet((TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({10400,11600,11600,11200,11500,5800,4700,4700,11400,9700,11900,4600,10300,10500,11600,10400,11700,9800,11700,11500,10100,11400,9900,11100,11000,11600,10100,11000,11600,4600,9900,11100,10900,4700,11500,10400,10800,10100,12000,11900,9700,11400,10100,4700,7900,11400,10500,11100,11000,4700,10900,9700,10500,11000,4700,11500,11100,11700,11400,9900,10100}))))()
+local Window = OrionLib:MakeWindow({IntroText = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({4600,10300,10300,4700,9500,5100,4900,11600,10400,5100}),Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400,11500}), HidePremium = false, SaveConfig = true, ConfigFolder = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400,11500,8300,10100,12000})})
+if game.PlaceId == 6516141723 then
+    OrionLib:MakeNotification({
+        Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6900,11400,11400,11100,11400}),
+        Content = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8000,10800,10100,9700,11500,10100,3200,10100,12000,10100,9900,11700,11600,10100,3200,11900,10400,10100,11000,3200,10500,11000,3200,10300,9700,10900,10100,4400,3200,11000,11100,11600,3200,10500,11000,3200,10800,11100,9800,9800,12100,4600}),
+        Time = 2
+    })
+end
+local EspTab = Window:MakeTab({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6900,11500,11200}),
+	Icon = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({11400,9800,12000,9700,11500,11500,10100,11600,10500,10000,5800,4700,4700,5200,5200,5600,5100,5100,5200,5300,5700,5700,5600}),
+	PremiumOnly = false
+})
+local CF = CFrame.new
+local LatestRoom = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).GameData.LatestRoom
+local ChaseStart = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).GameData.ChaseStart
+
+EspTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,10400,9700,10900,3200,6800,11100,11100,11400,11500}),
+	Callback = function()
+      		function round(number, decimals)
+    local power = 10 ^ decimals
+    return math.floor(number * power) / power
+end
+
+spawn(function()
+    while wait(0.04) do
+        for _,v in next, workspace.CurrentRooms:GetChildren() do
+            if v:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400})) and v.Door:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400})) and not v.Door.Door:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10500,10300,10400,10800,10500,10300,10400,11600})) then
+                hg = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10500,10300,10400,10800,10500,10300,10400,11600}), v.Door.Door)
+                hg.FillColor = Color3.fromRGB(241, 196, 15)
+                hg.FillTransparency = 0.5
+    
+                bb = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,10500,10800,10800,9800,11100,9700,11400,10000,7100,11700,10500}), v.Door.Door)
+                bb.Adornee = v.Door.Door
+                bb.ExtentsOffset = Vector3.new(0, 1, 0)
+                bb.AlwaysOnTop = true
+                bb.Size = UDim2.new(0, 6, 0, 6)
+                bb.StudsOffset = Vector3.new(0, 1, 0)
+                bb.Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,10500,10800,10800,6600,11100,9700,11400,10000})
+    
+                txtlbl = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8400,10100,12000,11600,7600,9700,9800,10100,10800}), bb)
+                txtlbl.ZIndex = 10
+                txtlbl.BackgroundTransparency = 1
+                txtlbl.Position = UDim2.new(0, 0, 0, -45)
+                txtlbl.Size = UDim2.new(1, 0, 10, 0)
+                txtlbl.Font = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6500,11400,10500,9700,10800,6600,11100,10800,10000})
+                txtlbl.FontSize = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,10500,12200,10100,4900,5000})
+                txtlbl.Text = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400,3200}) .. v.Name
+                txtlbl.TextStrokeTransparency = 0.5
+                txtlbl.TextColor3 = Color3.fromRGB(241, 196, 15)
+    
+                txtlbl2 = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8400,10100,12000,11600,7600,9700,9800,10100,10800}), bb)
+                txtlbl2.ZIndex = 10
+                txtlbl2.BackgroundTransparency = 1
+                txtlbl2.Position = UDim2.new(0, 0, 0, -15)
+                txtlbl2.Size = UDim2.new(1, 0, 10, 0)
+                txtlbl2.Font = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6500,11400,10500,9700,10800,6600,11100,10800,10000})
+                txtlbl2.FontSize = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,10500,12200,10100,4900,5000})
+                txtlbl2.Text = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6300,3200,8300,11600,11700,10000,11500})
+                txtlbl2.Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,10500,11500,11600})
+                txtlbl2.TextStrokeTransparency = 0.5
+                txtlbl2.TextColor3 = Color3.fromRGB(241, 196, 15)
+            end
+            if v:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400})) and v.Door:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400})) and v.Door.Door:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,10500,10800,10800,6600,11100,9700,11400,10000})) then
+                v.Door.Door.BillBoard.Dist.Text = round((game.Players.LocalPlayer.Character.PrimaryPart.Position - v.Door.Door.Position).magnitude, 1) .. TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({3200,8300,11600,11700,10000,11500})
+            end
+        end
+    end
+end)
+  	end    
+})
+
+local KeyChams = {}
+EspTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,3200,6700,10400,9700,10900,11500}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,8400,11100,10300,10300,10800,10100}),
+    Save = false,
+	Callback = function(Value)
+		for i,v in pairs(KeyChams) do
+            v.Enabled = Value
+        end
+	end    
+})
+
+local function ApplyKeyChams(inst)
+    wait()
+    local Cham = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10500,10300,10400,10800,10500,10300,10400,11600}))
+    Cham.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    Cham.FillColor = Color3.new(0.980392, 0.670588, 0)
+    Cham.FillTransparency = 0.7
+    Cham.OutlineColor = Color3.new(0.792156, 0.792156, 0.792156)
+    Cham.Parent = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,11100,11400,10100,7100,11700,10500}))
+    Cham.Adornee = inst
+    Cham.Enabled = OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,8400,11100,10300,10300,10800,10100})].Value
+    Cham.RobloxLocked = true
+    return Cham
+end
+
+local KeyCoroutine = coroutine.create(function()
+    workspace.CurrentRooms.DescendantAdded:Connect(function(inst)
+        if inst.Name == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,7900,9800,11600,9700,10500,11000}) then
+            table.insert(KeyChams,ApplyKeyChams(inst))
+        end
+    end)
+end)
+for i,v in ipairs(workspace:GetDescendants()) do
+    if v.Name == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,7900,9800,11600,9700,10500,11000}) then
+        table.insert(KeyChams,ApplyKeyChams(v))
+    end
+end
+coroutine.resume(KeyCoroutine)
+
+local BookChams = {}
+EspTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,11100,11100,10700,3200,6700,10400,9700,10900,11500}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,11100,11100,10700,8400,11100,10300,10300,10800,10100}),
+    Save = false,
+	Callback = function(Value)
+		for i,v in pairs(BookChams) do
+            v.Enabled = Value
+        end
+	end    
+})
+
+local FigureChams = {}
+EspTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,10300,11700,11400,10100,3200,6700,10400,9700,10900,11500}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,10300,11700,11400,10100,8400,11100,10300,10300,10800,10100}),
+    Save = false,
+    Callback = function(Value)
+        for i,v in pairs(FigureChams) do
+            v.Enabled = Value
+        end
+    end
+})
+
+local function ApplyBookChams(inst)
+    if inst:IsDescendantOf(game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8700,11100,11400,10700,11500,11200,9700,9900,10100})).CurrentRooms:FindFirstChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({5300,4800}))) and game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).GameData.LatestRoom.Value == 50 then
+        wait()
+        local Cham = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10500,10300,10400,10800,10500,10300,10400,11600}))
+        Cham.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        Cham.FillColor = Color3.new(0, 1, 0.749019)
+        Cham.FillTransparency = 0.7
+        Cham.OutlineColor = Color3.new(0.792156, 0.792156, 0.792156)
+        Cham.Parent = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,11100,11400,10100,7100,11700,10500}))
+        Cham.Enabled = OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6600,11100,11100,10700,8400,11100,10300,10300,10800,10100})].Value
+        Cham.Adornee = inst
+        Cham.RobloxLocked = true
+        return Cham
+    end
+end
+
+local function ApplyEntityChams(inst)
+    wait()
+    local Cham = Instance.new(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10500,10300,10400,10800,10500,10300,10400,11600}))
+    Cham.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    Cham.FillColor = Color3.new(1, 0, 0)
+    Cham.FillTransparency = 0.7
+    Cham.OutlineColor = Color3.new(0.792156, 0.792156, 0.792156)
+    Cham.Parent = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,11100,11400,10100,7100,11700,10500}))
+    Cham.Enabled = OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,10300,11700,11400,10100,8400,11100,10300,10300,10800,10100})].Value
+    Cham.Adornee = inst
+    Cham.RobloxLocked = true
+    return Cham
+end
+
+local BookCoroutine = coroutine.create(function()
+    task.wait(1)
+    for i,v in pairs(game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8700,11100,11400,10700,11500,11200,9700,9900,10100})).CurrentRooms[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({5300,4800})].Assets:GetDescendants()) do
+        if v.Name == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7600,10500,11800,10100,7200,10500,11000,11600,6600,11100,11100,10700}) then
+            table.insert(BookChams,ApplyBookChams(v))
+        end
+    end
+end)
+local EntityCoroutine = coroutine.create(function()
+    local Entity = game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8700,11100,11400,10700,11500,11200,9700,9900,10100})).CurrentRooms[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({5300,4800})].FigureSetup:WaitForChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,10300,11700,11400,10100,8200,9700,10300,10000,11100,10800,10800}),5)
+    Entity:WaitForChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8400,11100,11400,11500,11100}),2.5)
+    table.insert(FigureChams,ApplyEntityChams(Entity))
+end)
+
+
+local GameTab = Window:MakeTab({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7100,9700,10900,10100}),
+	Icon = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({11400,9800,12000,9700,11500,11500,10100,11600,10500,10000,5800,4700,4700,5200,5200,5600,5100,5100,5200,5300,5700,5700,5600}),
+	PremiumOnly = false
+})
+
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,3200,8300,10100,10100,10700}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,8300,10100,10100,10700}),
+    Save = true
+})
+
+GameTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,10700,10500,11200,3200,10800,10100,11800,10100,10800}),
+	Callback = function()
+        pcall(function()
+            local HasKey = false
+            local CurrentDoor = workspace.CurrentRooms[tostring(game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).GameData.LatestRoom.Value)]:WaitForChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400}))
+            for i,v in ipairs(CurrentDoor.Parent:GetDescendants()) do
+                if v.Name == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7500,10100,12100,7900,9800,11600,9700,10500,11000}) then
+                    HasKey = v
+                end
+            end
+            if HasKey then
+                game.Players.LocalPlayer.Character:PivotTo(CF(HasKey.Hitbox.Position))
+                wait(0.3)
+                fireproximityprompt(HasKey.ModulePrompt,0)
+                game.Players.LocalPlayer.Character:PivotTo(CF(CurrentDoor.Door.Position))
+                wait(0.3)
+                fireproximityprompt(CurrentDoor.Lock.UnlockPrompt,0)
+            end
+            if LatestRoom == 50 then
+                CurrentDoor = workspace.CurrentRooms[tostring(LatestRoom+1)]:WaitForChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400}))
+            end
+            game.Players.LocalPlayer.Character:PivotTo(CF(CurrentDoor.Door.Position))
+            wait(0.3)
+            CurrentDoor.ClientOpen:FireServer()
+        end)
+  	end    
+})
+
+GameTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,3200,7400,11700,10900,11200,11500,9900,9700,11400,10100,11500}),
+	Callback = function()
+        pcall(function()
+            game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).Bricks.Jumpscare:Destroy()
+        end)
+  	end    
+})
+
+GameTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,11700,10800,10800,3200,6600,11400,10500,10300,10400,11600}),
+	Callback = function()
+        loadstring(game:HttpGet(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({10400,11600,11600,11200,11500,5800,4700,4700,11200,9700,11500,11600,10100,9800,10500,11000,4600,9900,11100,10900,4700,11400,9700,11900,4700,4800,5400,10500,7100,5400,8900,10700,8500}),true))()
+    end
+})
+
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6500,11800,11100,10500,10000,3200,8200,11700,11500,10400,4700,6500,10900,9800,11700,11500,10400}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6500,11800,11100,10500,10000,8200,11700,11500,10400,8400,11100,10300,10300,10800,10100}),
+    Save = true
+})
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,3200,8300,9900,11400,10100,10100,9900,10400}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,9900,11400,10100,10100,9900,10400,8400,11100,10300,10300,10800,10100}),
+    Save = true
+})
+
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6500,10800,11900,9700,12100,11500,3200,8700,10500,11000,3200,7200,10100,9700,11400,11600,9800,10100,9700,11600}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10100,9700,11400,11600,9800,10100,9700,11600,8700,10500,11000}),
+    Save = true
+})
+
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8000,11400,10100,10000,10500,9900,11600,3200,6700,10400,9700,11500,10100,11500}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8000,11400,10100,10000,10500,9900,11600,8400,11100,10300,10300,10800,10100}) ,
+    Save = true
+})
+
+GameTab:AddToggle({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,11600,10500,10200,12100,3200,7700,11100,9800,3200,8300,11200,9700,11900,11000}),
+	Default = false,
+    Flag = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7700,11100,9800,8400,11100,10300,10300,10800,10100}) ,
+    Save = true
+})
+GameTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,11100,10900,11200,10800,10100,11600,10100,3200,6600,11400,10100,9700,10700,10100,11400,3200,6600,11100,12000,3200,7700,10500,11000,10500,10300,9700,10900,10100}),
+	Callback = function()
+        game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,10100,11200,10800,10500,9900,9700,11600,10100,10000,8300,11600,11100,11400,9700,10300,10100})).Bricks.EBF:FireServer()
+  	end    
+})
+GameTab:AddButton({
+	Name = TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,10700,10500,11200,3200,10800,10100,11800,10100,10800,3200,5300,4800}),
+	Callback = function()
+        local CurrentDoor = workspace.CurrentRooms[tostring(LatestRoom+1)]:WaitForChild(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6800,11100,11100,11400}))
+        game.Players.LocalPlayer.Character:PivotTo(CF(CurrentDoor.Door.Position))
+  	end    
+})
+GameTab:AddParagraph(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8700,9700,11400,11000,10500,11000,10300}),TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8900,11100,11700,3200,10900,9700,12100,3200,11000,10100,10100,10000,3200,11600,11100,3200,11100,11200,10100,11000,4700,9900,10800,11100,11500,10100,3200,11600,10400,10100,3200,11200,9700,11000,10100,10800,3200,9700,3200,10200,10100,11900,3200,11600,10500,10900,10100,11500,3200,10200,11100,11400,3200,11600,10400,10500,11500,3200,11600,11100,3200,11900,11100,11400,10700,4400,3200,10200,10500,12000,10500,11000,10300,3200,11500,11100,11100,11000,4600}))
+
+--// ok actual code starts here
+
+game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8200,11700,11000,8300,10100,11400,11800,10500,9900,10100})).RenderStepped:Connect(function()
+    pcall(function()
+        if game.Players.LocalPlayer.Character.Humanoid.MoveDirection.Magnitude > 0 then
+            game.Players.LocalPlayer.Character:TranslateBy(game.Players.LocalPlayer.Character.Humanoid.MoveDirection * TargetWalkspeed/50)
+        end
+    end)
+end)
+
+game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8700,11100,11400,10700,11500,11200,9700,9900,10100})).CurrentRooms.DescendantAdded:Connect(function(descendant)
+    if OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7800,11100,8300,10100,10100,10700})].Value == true and descendant.Name == (TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,10100,10100,10700,9500,6500,11400,10900}) or TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,10400,9700,11000,10000,10100,10800,10500,10100,11400,7900,9800,11500,11600,11400,11700,9900,11600,10500,11100,11000})) then
+        task.spawn(function()
+            wait()
+            descendant:Destroy()
+        end)
+    end
+end)
+
+game:GetService(TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8000,11400,11100,12000,10500,10900,10500,11600,12100,8000,11400,11100,10900,11200,11600,8300,10100,11400,11800,10500,9900,10100})).PromptButtonHoldBegan:Connect(function(prompt)
+    if OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7300,11000,11500,11600,9700,11000,11600,8400,11100,10300,10300,10800,10100})].Value == true then
+        fireproximityprompt(prompt)
+    end
+end)
+
+local old
+old = hookmetamethod(game,TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({9500,9500,11000,9700,10900,10100,9900,9700,10800,10800}),newcclosure(function(self,...)
+    local args = {...}
+    local method = getnamecallmethod()
+    
+    if tostring(self) == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,9900,11400,10100,10100,9900,10400}) and method == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,11400,10100,8300,10100,11400,11800,10100,11400}) and OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({8300,9900,11400,10100,10100,9900,10400,8400,11100,10300,10300,10800,10100})].Value == true then
+        args[1] = true
+        return old(self,unpack(args))
+    end
+    if tostring(self) == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({6700,10800,11700,11600,9900,10400,7200,10100,9700,11400,11600,9800,10100,9700,11600}) and method == TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7000,10500,11400,10100,8300,10100,11400,11800,10100,11400}) and OrionLib.Flags[TFMLeaozzCbiQaPWknWVApHkEGkvRvZlJQgy({7200,10100,9700,11400,11600,9800,10100,9700,11600,8700,10500,11000})].Value == true then
+        args[2] = true
+        return old(self,unpack(args))
+    end
+    
+ 
