@@ -64,3 +64,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/MM2%20-%2031TH3.txt",true))()
 ```
+# Murder Vs Sheriff
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/31th3%20Murder%20Vs%20Sheriff.txt",true))()
+```
