@@ -73,3 +73,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/31TH3%20HUB.CC.txt",true))()
 ```
+
+# Noclip
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/Noclip%20Hub.txt",true))()
+```
