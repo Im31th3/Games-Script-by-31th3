@@ -72,3 +72,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/Noclip%20Hub.txt",true))()
 ```
+# Natural Disaster Survival
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/_Natural%20Disaster%20Survival.txt",true))()
+```
