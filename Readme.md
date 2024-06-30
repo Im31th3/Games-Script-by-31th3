@@ -76,3 +76,17 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/_Natural%20Disaster%20Survival.txt",true))()
 ```
+
+# Rainbow Friends Chapter 1+2
+```
+local ids = {
+    8888615802, --Rainbow friends chapter 1  
+    13622981808, --Rainbow friends chapter 2
+}
+
+if game.PlaceId == ids[1] then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/RainBowFriends%20Chapter%201.txt",true))()
+elseif game.PlaceId == ids[2] then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Im31th3/Games-Script-by-31th3/main/RainBowFriends%20Chapter%202.txt",true))()
+end
+```
